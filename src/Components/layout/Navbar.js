@@ -4,9 +4,11 @@ import { Link } from "react-router-dom";
 export default () => {
   return (
     <div className="navbar navbar-dark bg-dark">
-      <a className="navbar-brand" href="/">
-        <span className='text-danger font-weight-bold'>User</span> Manager
-      </a>
+      <Link to="/">
+        <a className="navbar-brand">
+          <span className='text-danger font-weight-bold'>User</span> Manager
+        </a>
+      </Link>
 
       <ul className="navbar-nav d-inline">
         <li className="d-inline-block pl-4">
