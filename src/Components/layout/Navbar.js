@@ -5,7 +5,7 @@ export default () => {
   return (
     <div className="navbar navbar-dark bg-dark">
       <Link to="/">
-        <a className="navbar-brand">
+        <a className="navbar-brand" style={{ color: 'white' }}>
           <span className='text-danger font-weight-bold'>User</span> Manager
         </a>
       </Link>
